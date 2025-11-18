@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Digital Clock</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="clock">
-        <h1 id="time">00:00:00</h1>
+
+    <h1 class="title">World Digital Clock</h1>
+
+    <div class="container">
+        <div class="card" id="sl">
+            <h2>Sri Lanka</h2>
+            <div class="time"></div>
+            <div class="date"></div>
+        </div>
+
+        <div class="card" id="india">
+            <h2>India</h2>
+            <div class="time"></div>
+            <div class="date"></div>
+        </div>
+
+        <div class="card" id="london">
+            <h2>London</h2>
+            <div class="time"></div>
+            <div class="date"></div>
+        </div>
+
+        <div class="card" id="newyork">
+            <h2>New York</h2>
+            <div class="time"></div>
+            <div class="date"></div>
+        </div>
+
+        <div class="card" id="tokyo">
+            <h2>Tokyo</h2>
+            <div class="time"></div>
+            <div class="date"></div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
